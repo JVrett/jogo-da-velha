@@ -1,0 +1,22 @@
+.casa{
+    width: 195px;
+    height: 195px;
+    background-color: rgba(133, 128, 128, 0.616);
+    border: 1px #fff dotted;
+
+}
+
+.casa:hover{
+    background-color: black;
+}
+
+#tabuleiro{
+
+    width: 595px;
+    height: 595px;
+    border: 1px #000 solid;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(3, 200px);
+
+}
